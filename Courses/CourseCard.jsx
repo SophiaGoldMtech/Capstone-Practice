@@ -1,4 +1,4 @@
-export default function Course({ title, image, label, description }) {
+export default function CourseCard({ title, image, label, description }) {
   return (
     <div className="course--card">
       <div className="course--image-container">

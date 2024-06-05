@@ -1,11 +1,11 @@
-import courses from "./courseData";
-import Course from "./Course";
+import courses from "./courseData.js";
+import CourseCard from "./CourseCard";
 
 export default function CourseRow() {
   return (
     <div className="CourseRow">
       {courses.map((course, index) => (
-        <Course
+        <CourseCard
           key={index}
           title={course.title}
           description={course.description}

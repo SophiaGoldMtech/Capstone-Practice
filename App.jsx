@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import "./App.css";
-import "../Course.css";
-import CourseRow from "../CourseRow";
+import "./Courses/Course.css";
+import CourseRow from "./Courses/CourseRow";
 
 function App() {
   return (
