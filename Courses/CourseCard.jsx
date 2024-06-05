@@ -1,3 +1,5 @@
+//This is one single course
+
 export default function CourseCard({ title, image, label, description }) {
   return (
     <div className="course--card">

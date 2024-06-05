@@ -1,3 +1,5 @@
+//This is a row of many courses
+
 import courses from "./courseData.js";
 import CourseCard from "./CourseCard";
 
